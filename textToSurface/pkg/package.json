@@ -1,0 +1,18 @@
+{
+  "name": "textToSurface",
+  "version": "0.1.0",
+  "files": [
+    "textToSurface_bg.wasm",
+    "textToSurface.js",
+    "textToSurface_bg.js",
+    "textToSurface.d.ts"
+  ],
+  "module": "textToSurface.js",
+  "types": "textToSurface.d.ts",
+  "sideEffects": [
+    "./textToSurface.js",
+    "./snippets/*"
+  ],
+  "type": "module",
+  "main": "textToSurface.js"
+}
